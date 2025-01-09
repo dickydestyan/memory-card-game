@@ -48,8 +48,8 @@ body {
     transition: all 0.5s ease-in-out;
   }
   .front-image {
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
   }
   
   .card.flipped {
@@ -73,7 +73,7 @@ body {
   }
   
   .card .back {
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='25' height='25' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M25 30a5 5 0 110-10 5 5 0 010 10zm0-25a5 5 0 110-10 5 5 0 010 10zM0 30a5 5 0 110-10 5 5 0 010 10zM0 5A5 5 0 110-5 5 5 0 010 5zm12.5 12.5a5 5 0 110-10 5 5 0 010 10z'  stroke-width='1' stroke='none' fill='hsla(174, 100%, 29%, 1)'/><path d='M0 15a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm25 0a2.5 2.5 0 110-5 2.5 2.5 0 010 5zM12.5 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm0 25a2.5 2.5 0 110-5 2.5 2.5 0 010 5z'  stroke-width='1' stroke='none' fill='hsla(187, 100%, 42%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    background-image: url("./asset/image0.jpg");
     background-position: center center;
     background-size: cover;
     backface-visibility: hidden;
@@ -82,3 +82,53 @@ body {
   .card .front {
     transform: rotateY(180deg);
   }
+
+  #form {
+    background-image: url(./picture/new.jpg);
+    background-color: skyblue;
+    text-align: center;
+    margin: 30px 400px;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.form-label {
+    display: block;
+    text-align: center;
+    color: black;
+    margin: 15px 0px;
+}
+
+.form-input {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#btn-submit {
+    margin: 20px 0px;
+    padding: 10px 50px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.text {
+  color: black;
+}
+
+.formLogin {
+  font-family: "lilita one" sans-serif;
+  padding: 0%;
+  margin: 0%;
+  background-image: url(./Styles/new.jpg)
+}
+
+.akun {
+  padding-left: 20px;
+  border-radius: 5px;
+  width: 200px;
+  height: 120px;
+  background-color: #CCCCFF;
+  color: blue;
+}
+
