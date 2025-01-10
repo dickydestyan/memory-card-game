@@ -45,7 +45,7 @@ let cards = [];
 let firstCard, secondCard;
 let lockBoard = false;
 let score = 0;
-let live = Infinity;
+let live = 9;
 let count = 0;
 
 document.querySelector(".score").textContent = score;
@@ -186,10 +186,12 @@ function unflipCards() {
 }
 
 function checkScore() {
-    if (Math.floor(score) === 100) {
-        alert("Congrats! You Win!");
-        changeScreen(true);
-    }
+    setTimeout(() => {
+        if (Math.floor(score) === 100) {
+            alert("Congrats! You Win!");
+            changeScreen(true);
+        }
+    }, 500);
 }
 
 function resetBoard() {
