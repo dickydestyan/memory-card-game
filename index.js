@@ -1,38 +1,38 @@
 let data = [
     {
-        "image": "../asset/image1.png",
+        "image": "./asset/image1.png",
         "name": "kucing1"
     },
     {
-        "image": "../asset/image2.png",
+        "image": "./asset/image2.png",
         "name": "kucing2"
     },
     {
-        "image": "../asset/image3.png",
+        "image": "./asset/image3.png",
         "name": "kucing3"
     },
     {
-        "image": "../asset/image4.png",
+        "image": "./asset/image4.png",
         "name": "kucing4"
     },
     {
-        "image": "../asset/image5.png",
+        "image": "./asset/image5.png",
         "name": "kucing5"
     },
     {
-        "image": "../asset/image6.png",
+        "image": "./asset/image6.png",
         "name": "kucing6"
     },
     {
-        "image": "../asset/image7.png",
+        "image": "./asset/image7.png",
         "name": "kucing7"
     },
     {
-        "image": "../asset/image8.png",
+        "image": "./asset/image8.png",
         "name": "kucing8"
     },
     {
-        "image": "../asset/image9.png",
+        "image": "./asset/image9.png",
         "name": "kucing9"
     }
 ];
